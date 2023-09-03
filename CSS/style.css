@@ -1,0 +1,295 @@
+/* Google Font*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Poppins&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #777;
+    background-color: #f6f7ff;
+    font-family: "Open Sans",sans-serif;
+    font-size: 14px;
+    line-height: 1.7;
+    overflow-x: hidden;
+}
+
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+    color: #fff;
+    background: #ff5959;
+}
+
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #000;
+    font-family: "Poppins",sans-serif;
+    font-weight: 700;
+    margin: 20px 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+header .site-title.dot:after {
+    content: "";
+    background-color: #ff5959;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 5px;
+    height: 8px;
+    width: 8px;
+}
+
+header .site-title {
+    display: block;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: "Poppins",sans-serif;
+}
+
+.mt-3, .my-3 {
+    margin-top: 1rem!important;
+}
+
+header a {
+    color: #fff;
+}
+
+a {
+    color: #000;
+    outline: 0;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+header .vertical-menu li a.active:before {
+    content: "";
+    background: #ff5959;
+    display: block;
+    height: 18px;
+    left: -30px;
+    top: 7px;
+    position: absolute;
+    width: 3px;
+}
+
+header.left {
+    color: #fff;
+    background: #4a63e7;
+    border-radius: 20px;
+    min-height: 620px;
+    max-height: 620px;
+    top: 50px;
+    overflow: hidden;
+    position: fixed;
+    width: 265px;
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+header.left .header-inner {
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 30px;
+    position: absolute;
+}
+
+header .site-slogan {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+header .copyright {
+    font-size: 13px;
+    opacity: .7;
+}
+
+.social-icons li a:hover {
+    color: #ff5959;
+    background: #fff;
+}
+
+.social-icons li a {
+    color: #fff;
+    background: #ff5959;
+    border-radius: 50%;
+    display: block;
+    height: 30px;
+    line-height: 32px;
+    text-align: center;
+    width: 30px;
+}
+
+
+.d-flex {
+    display: -ms-flexbox!important;
+    display: flex!important;
+}
+
+.flex-column {
+    -ms-flex-direction: column!important;
+    flex-direction: column!important;
+}
+
+.align-items-start {
+    -ms-flex-align: start!important;
+    align-items: flex-start!important;
+}
+
+.mCustomScrollbar {
+    -ms-touch-action: pinch-zoom;
+    touch-action: pinch-zoom;
+}
+
+.mCustomScrollbar.mCS_no_scrollbar, .mCustomScrollbar.mCS_touch_action {
+    -ms-touch-action: auto;
+    touch-action: auto;
+}
+
+.elementor-8 .elementor-element.elementor-element-bf95336>.elementor-container {
+    min-height: 620px;
+}
+
+.elementor-section.elementor-section-items-middle>.elementor-container {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.elementor-section.elementor-section-boxed>.elementor-container {
+    max-width: 1140px;
+}
+
+.elementor-section .elementor-container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+.elementor *, .elementor :after, .elementor :before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.elementor-8 .elementor-element.elementor-element-6d67668:not(.elementor-motion-effects-element-type-background), .elementor-8 .elementor-element.elementor-element-6d67668>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #fff;
+}
+
+.elementor-8 .elementor-element.elementor-element-6d67668 {
+    transition: background .3s,border .3s,border-radius .3s,box-shadow .3s;
+    margin-top: 0;
+    margin-bottom: 50px;
+    padding: 65px 40px 60px;
+}
+
+.elementor-8 .elementor-element.elementor-element-6d67668, .elementor-8 .elementor-element.elementor-element-6d67668>.elementor-background-overlay {
+    border-radius: 20px;
+}
+
+.elementor-8 .elementor-element.elementor-element-3f69f3f.elementor-widget-heading .elementor-heading-title {
+    color: #fff;
+}
+
+.elementor-section {
+    position: relative;
+}
+
+.elementor-8 .elementor-element.elementor-element-3f69f3f .elementor-heading-title {
+    font-family: "Poppins",Sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: .7em;
+}
+
+.elementor-widget-heading.elementor-widget-heading .elementor-heading-title {
+    color: #6ec1e4;
+}
+
+.elementor-widget-heading .elementor-heading-title {
+    font-family: "Roboto",Sans-serif;
+    font-weight: 600;
+}
+.elementor-widget-heading .elementor-heading-title {
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+}
+
+
+.elementor *, .elementor :after, .elementor :before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.shadow-blue {
+    -webkit-box-shadow: 0px 6px 15px 0px rgba(74,99,231,.2);
+    -moz-box-shadow: 0px 6px 15px 0px rgba(74,99,231,.2);
+    box-shadow: 0px 6px 15px 0px rgba(74,99,231,.2);
+}
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
